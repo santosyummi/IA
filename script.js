@@ -35,7 +35,7 @@ const perguntas[
     },
     },
      {
-        enunciado: "Pergunta1",
+        enunciado: "Pergunta3",
         alternativas: [
             {
                 texto: "alternativa1", 
@@ -48,3 +48,17 @@ const perguntas[
         ]
     },
 ]
+
+let atual = 0;
+let perguntaAtual;
+
+function motraPrgunta (){
+    perguntaAtual = perguntas [atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostraAlternativas();
+}
+
+function mostraAlternativas(){
+
+}
+motraPrgunta();
