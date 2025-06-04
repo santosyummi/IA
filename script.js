@@ -68,4 +68,4 @@ function mostraAlternativas(){
     }
 }
 
-motraPrgunta();
+motraAlternativas();
