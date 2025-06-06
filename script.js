@@ -79,5 +79,5 @@ function respostaSelecionada (opcaoSelecionada){
 function mostraResultado(){
     caixaPerguntas.textContent = "conclusao...";
     textoResultado.textContent = "hitoriaFinal";
-    caixaAlternativas.textContent = " ";
+    caixaAlternativas.textContent = "";
 }
