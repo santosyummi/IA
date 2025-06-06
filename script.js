@@ -57,8 +57,11 @@ function mostraPergunta(){
     }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = ""
+    textoResultado.textContent = ""
     mostraAlternativas();
 }
+
 function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativa = document.createElement("button");
@@ -67,7 +70,6 @@ function mostraAlternativas(){
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 } 
-//mostraPergunta();
 
 function respostaSelecionada (opcaoSelecionada){
     const afirmacao = opcaoSelecionada.afirmacao;
@@ -81,3 +83,4 @@ function mostraResultado(){
     textoResultado.textContent = "hitoriaFinal";
     caixaAlternativas.textContent = "";
 }
+mostraPergunta();
