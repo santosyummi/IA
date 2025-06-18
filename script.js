@@ -23,8 +23,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "No vôlei, a coordenação entre levantador, atacantes e defensores é crucial para a construção de uma jogada eficiente.",
-                afirmacao: "Isso demonstra como a colaboração individual contribui para o objetivo comum.
-"
+                afirmacao: "Isso demonstra como a colaboração individual contribui para o objetivo comum."
             },
             {
                 texto: "A constante necessidade de comunicação verbal e não verbal entre os jogadores de vôlei é vital para antecipar movimentos e ajustar estratégias.",
