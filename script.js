@@ -79,7 +79,7 @@ function respostaSelecionada (opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "conclusao...";
+    caixaPerguntas.textContent = "conclusão...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
