@@ -1,8 +1,8 @@
 :root{
-    --cor-fundo: #096abe;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #464b74;
-    --cor-destaque: #62d6f3;
+    --cor-fundo: #4349a1;
+    --cor-principal: #1f2553 ;
+    --cor-secundaria: #4d5485;
+    --cor-destaque: #7472e6;
     --cor-texto: #D7F9FF;
 }
 
@@ -46,10 +46,10 @@ button:hover{
 }
 
 :root{
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
+    --cor-fundo: #4349a1;
+    --cor-principal: #1f2553 ;
+    --cor-secundaria: #4d5485;
+    --cor-destaque: #7472e6;
     --cor-texto: #D7F9FF;
 }
 
