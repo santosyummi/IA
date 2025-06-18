@@ -48,7 +48,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal =" "
+let historiaFinal ="";
 
 function mostraPergunta(){
     if (atual >= perguntas.length) {
@@ -80,7 +80,7 @@ function respostaSelecionada (opcaoSelecionada){
 
 function mostraResultado(){
     caixaPerguntas.textContent = "conclusao...";
-    textoResultado.textContent = "hitoriaFinal";
+    textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
 mostraPergunta();
